@@ -10,7 +10,7 @@
             <div class="menu">
             <a href="#delivery">Доставка Дом&Офіс</a>
             <a href="#products">Продукти</a>
-            <a href="#about us">Про нас</a>
+            <a href="#about-us">Про нас</a>
             <a href="#contacts">Контакти</a>
             </div>
         </nav>
@@ -23,13 +23,19 @@
         <p>М'яка джерельна мінеральна вода</p>
 
 <form method="POST" action="https://formspree.io/f/mbjpanvg">
-    <tabel>
-        <input type="text" name="user name" placeholder="І'мя" required><br><br>
-        <input type="figures" name="phone number" placeholder="Номер телефону" required><br><br>
-        <input type="email" name="email" placeholder="E-mail"required><br><br>
-        <input type="adress" name="adress" placeholder="Адреса" required><br><br>
-        <button>Відправити</button>    
-    </tabel>
+    <label>
+        <input type="text" name="user name" placeholder="name" required><br>
+    </label>
+    <label>
+        <input type="number" name="phone number" placeholder="number" required><br>
+    </label>
+    <label>
+        <input type="email" name="email" placeholder="e-mail" required><br>
+    </label>
+    <label>
+        <input type="text" name="adress" placeholder="adress" required><br>
+    </label>
+        <input type="submit"> 
    
 </form>         
             <article>
@@ -43,16 +49,17 @@
                     <h2>Перевірена якість</h2>
                     <p>Все обладнання для розливу сертифіковане у відповідності до державних стандартів.</p>
             </article>
-    <section> Обери потрібне</section>    
-        <div id="delivery"></div>
-            <div class="for home"></div>
-                <h2>Для Дому</h2>    
+    <h2>Обери потрібне</h2>    
+        <div id="delivery">
+            <div class="for-home">
+                <p>Для Дому</p>    
                 <p>Вода необхідна для загальної продуктивності. Коли ви бажаєте, щоб ваша команда була живою кожного дня, почніть із доставки свіжої води. Результати вас здивують —як всіх наших клієнтів.</p>
-             <div id="delivery">
-            <div class="for office"></div>
-                <h2>Для Офісу</h2>
+            </div>
+        </div>
+            <div class="for-office">
+                <p>Для Офісу</p>
                 <p>Здивовані як покращилося здоров'я вашої родини? Все просто —тільки чиста джерельна вода. Можливо це виглядає як маленька зміна, але результат гігантський. Чиста вода покращую метаболізм, прискорює рост дітей, додає сили всьому тілу.</p>
-        </div> 
+            </div> 
             <section>    
                 <img src="img/lemon-with-ice.jpeg" alt="вода з лимоном та м'ятою">  
                      <h2 id="products">Продукти</h2> 
@@ -69,14 +76,14 @@
                      <h2>Ваш власний бренд</h2>
                     <p>Отримай воду із назвою твого бренду- розміщай для впізнаваності у конференц залах чи на реценшені.</p>
                 </section>
-        <div id="about us"></div>
-            <div class="firm history"></div>
+        <div id="about-us"></div>
+            <div class="firm-history"></div>
             <h3>Про компанію</h3>
             <p>Чиста сльоза почала свій шлях, як бізнес доствки джерельної води коли засновник фірми Олексій, вирішив доставляти джерельну воду для своєї родини, потім для сімей своїх друзів. Це була маленька сімейна справа по доставці води в будинки по своїй вулиці. Сімейна справа почала рости достатньо швидко і виросла у великий бізнес.</p>
             <img src="img/glass-of-water.jpg" alt="склянка води">
         <section class="partners">
             <h3>Наші партнери</h3>
-                <img src="icons/kfc.png" alt="ресторан"><th></th>
+                <img src="icons/kfc.png" alt="ресторан">
                 <img src="icons/publix.png" alt="супермаркет">
                 <img src="icons/heb.png" alt="магазин">
                 <img src="icons/wallmart.png" alt="гипермаркет">     
@@ -100,14 +107,20 @@
                 <label>Mikrosoft</label><br><br>
         </section> 
 <form method="POST" action="https://formspree.io/f/mbjpanvg">
-    <tabel>
-        <input type="text" name="user name" placeholder="Твоє і'мя" required><br>
-        <input type="figures" name="phone number" placeholder="Номер телефону" required><br>
-        <input type="email" name="email" placeholder="E-mail"required><br>
-        <input type="adress" name="adress" placeholder="Адреса" required><br>
-                <textarea name="message" placeholder="Повідломлення" required></textarea><br>
-        <input type="submit"><br><br>
-    </tabel>
+    <label>
+        <input type="text" name="user name" placeholder="name" required><br>
+    </label>
+    <label>
+        <input type="number" name="phone number" placeholder="number" required><br>
+    </label>
+    <label>
+        <input type="email" name="email" placeholder="e-mail" required><br>
+    </label>
+    <label>
+        <input type="text" name="adress" placeholder="adress" required><br>
+    </label>
+        <textarea name="message" placeholder="message" required></textarea><br>
+        <input type="submit"><br>
 </form>
     </main>
     <footer>
@@ -115,7 +128,7 @@
             <div class="menu">
             <a href="#delivery">Доставка</a>
             <a href="#products">Продукти</a>
-            <a href="#about us">Про нас</a>
+            <a href="#about-us">Про нас</a>
             <a href="#contacts">Контакти</a>
             </div>
         </nav>        
