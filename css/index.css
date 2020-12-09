@@ -3,8 +3,8 @@ h1 {
 }
 
 img {
-    max-width: 1000px;
-    max-height: 200px; 
+    max-width: 200px;
+    max-height: 500px; 
 }
 .banner {
     font-family: 'Open Sans', serif;
@@ -18,23 +18,49 @@ img {
     text-align: right;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 0px;
+    padding-right: 40px;
+    padding-top: 20px;
     margin: 20 px;
     
+}
+nav a {
+    text-decoration: none;
+
 }
 .brand {
     background-image: url(../img/soft-water.jpg);
     height: 700px;
     width: 1000px;
-    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
 }
-
+.brand-content {
+    text-align: center;
+    font-size: 36px;
+    font-family: serif;
+    padding-top: 250px;
+}
+.delivery-form {
+    padding-left: 100px;
+    padding-top: 100px;
+    height: 250px;
+    margin-top: 50px;
+    padding-right: 150px;
+    padding-bottom: 100px;
+    background-color: white;
+    font-size: 18px;
+    width: 100px;
+}
 .foundation {
     display: flex;
     flex: wrap;
-
 }
 
+.form-blok {
+    padding-bottom: 50px;
+    padding-right: 20px;
+    text-align: center;
+}
 .for-home .for-office {
     display: flex;
 }
@@ -45,11 +71,9 @@ img {
     margin-bottom: 200px;
 
 }
-
 .products {
     display: flex;
 }
-
 .product-card {
     display: flex;
     flex-wrap: wrap;
@@ -58,5 +82,8 @@ img {
 .foundation {
     font-size: 24px;
     font-family: Arial;
-    
+}
+.product-lemon {
+    width: 500px;
+    height: 500 px;
 }
